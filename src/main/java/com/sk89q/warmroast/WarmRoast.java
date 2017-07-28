@@ -210,7 +210,7 @@ public class WarmRoast extends TimerTask {
 
         System.err.println(SEPARATOR);
         System.err.println("WarmRoast");
-        System.err.println("http://github.com/sk89q/warmroast");
+        System.err.println("http://github.com/curscascis/warmroast");
         System.err.println(SEPARATOR);
         System.err.println("");
         

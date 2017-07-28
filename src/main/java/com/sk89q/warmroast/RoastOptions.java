@@ -49,4 +49,29 @@ public class RoastOptions {
     @Parameter(names = { "--timeout" }, description = "The number of seconds before ceasing sampling (optional)")
     public Integer timeout;
 
+    @Parameter(names = {"-jh","--jmxhost"}, description = "The URL/IP for the JMX Port to be bound to")
+    public String jmxhost = "0.0.0.0";
+
+    @Parameter(names = {"-jp","--jmxport"}, description = "The port for the JMX Port to be bound to")
+    public Integer jmxport = 9090;
+
+    @Parameter(names = {"--jmxuser"}, description = "JMX username")
+    public String jmxuser;
+
+    @Parameter(names = {"--jmxpass"}, description = "JMX Password")
+    public String jmxpassword;
+
+    @Parameter(names = {"--smtphost"}, description = "SMPT host")
+    public String smpthost;
+
+    @Parameter(names = {"--smtpport"}, description = "SMPT host")
+    public Integer smtpport = 3737;
+
+    @Parameter(names = {"--smtpuser"}, description = "SMPT username")
+    public String smptuser;
+
+    @Parameter(names = {"--smtppass"}, description = "SMPT password")
+    public String smptpass;
+
+
 }
